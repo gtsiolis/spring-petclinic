@@ -1,5 +1,5 @@
 tasks:
-  - init: ./mvnw clean install -U -DskipTests
+  - init: ./mvnw clean install
     command: ./mvnw spring-boot:run
     name: Run PetClinic app
 
